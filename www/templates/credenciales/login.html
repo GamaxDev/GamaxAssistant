@@ -1,0 +1,27 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Inicio de Sesion </h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeLogin()"></button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="doLogin()">
+
+      <img src="img/gamax.png">
+      <div class="list">
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Email</span>
+    <input type="text" placeholder="Correo Electronico">
+  </label>
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Contraseña</span>
+    <input type="text" placeholder="Contraseña">
+  </label>
+</div>
+    </form>
+    <div class="padding">
+        <button class="button button-block button-positive">Iniciar Sesion</button>
+      </div>
+  </ion-content>
+</ion-modal-view>
